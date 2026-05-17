@@ -1,0 +1,36 @@
+{
+  "name": "agent-memory-framework",
+  "version": "1.0.0",
+  "description": "Framework-independent AI Agent memory system with Markdown storage and lint tools",
+  "main": "index.js",
+  "bin": {
+    "agent-memory-lint": "./bin/lint.js"
+  },
+  "scripts": {
+    "lint": "node bin/lint.js",
+    "lint:fix": "node bin/lint.js --fix",
+    "test": "node tests/lint.test.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "memory",
+    "markdown",
+    "lint",
+    "framework-independent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/agent-memory-framework.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "docs/"
+  ]
+}

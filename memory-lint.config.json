@@ -1,0 +1,6 @@
+{
+  "root": "./memory",
+  "dirs": ["01-原则", "02-skills", "03-projects", "04-raw"],
+  "files": ["00-索引.md", "03-项目进展.md"],
+  "whitelist": ["总结", "审核", "归档"]
+}
